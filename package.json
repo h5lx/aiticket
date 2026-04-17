@@ -1,0 +1,15 @@
+{
+    "dependencies": {
+        "axios": "^1.7.7",
+        "canvas": "^3.2.3",
+        "debug": "^4.4.3",
+        "discord-html-transcripts": "^3.2.0",
+        "discord.js": "^14.16.3",
+        "dotenv": "^16.4.5",
+        "groq-sdk": "^0.7.0",
+        "mercadopago": "^1.5.13",
+        "qr-code-styling-node": "^1.5.0",
+        "qrcode-pix": "^5.0.0",
+        "wio.db": "^4.0.22"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "1443395801224052848": {
+        "dono": "1001661514371055638",
+        "nmfunc": "Iniciar Atendimento",
+        "assumidostatus": false,
+        "chat": [
+            {
+                "role": "user",
+                "content": "Opa"
+            },
+            {
+                "role": "assistant",
+                "content": "Olá! Como posso ajudar você hoje? Você precisa de ajuda com algo específico ou tem alguma dúvida? Estou aqui para te ajudar!"
+            }
+        ],
+        "assumido": true
+    },
+    "1443738853138497559": {
+        "dono": "1237598056015335440",
+        "nmfunc": "Iniciar Atendimento",
+        "assumidostatus": false,
+        "assumido": true
+    },
+    "1443751483245068419": {
+        "dono": "925089439535988797",
+        "nmfunc": "Iniciar Atendimento",
+        "assumidostatus": true,
+        "chat": [
+            {
+                "role": "user",
+                "content": "<@1392160577442414603>"
+            },
+            {
+                "role": "assistant",
+                "content": "Olá! Como posso ajudá-lo? Você tem alguma dúvida ou precisou de ajuda com algo? Estou aqui para ajudar!"
+            }
+        ],
+        "assumido": "night_forn13"
+    },
+    "1494023450606571560": {
+        "dono": "1386162256588443709",
+        "nmfunc": "Iniciar Atendimento",
+        "assumidostatus": false,
+        "chat": [
+            {
+                "role": "user",
+                "content": "ola"
+            },
+            {
+                "role": "assistant",
+                "content": "Olá! Seja bem-vindo ao nosso servidor! Estou aqui para ajudá-lo com qualquer dúvida ou problema que você tenha. Qual é o motivo da sua visita hoje?"
+            },
+            {
+                "role": "user",
+                "content": "quero comprar isso"
+            },
+            {
+                "role": "assistant",
+                "content": "Você quer comprar um produto específico. Posso te ajudar a encontrar mais informações sobre ele ou te direcionar para o local correto para fazer a compra. Qual é o nome do produto que você está interessado?"
+            },
+            {
+                "role": "user",
+                "content": "https://cdn.discordapp.com/emojis/1491729427615322275.webp?size=32"
+            },
+            {
+                "role": "assistant",
+                "content": "Um emoji! Você está procurando por um produto relacionado a esse emoji ou apenas quer saber mais sobre ele? Se for o último caso, posso te fornecer informações sobre o emoji. Se for o primeiro, posso te ajudar a encontrar o produto que você está procurando. Qual é o seu interesse?"
+            }
+        ]
+    },
+    "1494401088680628386": {
+        "dono": "1490719806742073558",
+        "nmfunc": "Suporte",
+        "assumidostatus": true,
+        "assumido": "tewyu"
+    },
+    "pagador": "1490719806742073558"
+}

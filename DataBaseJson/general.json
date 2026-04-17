@@ -1,0 +1,64 @@
+{
+    "ticket": {
+        "status": true,
+        "statusgermine": true,
+        "germine": {
+            "prompt": "Você é um atendente virtual de um servidor do discord. \nSeu objetivo é resolver problemas e duvidas de clientes de forma rápida, simpática e profissional.",
+            "apikey": "SUA_APIKEY"
+        },
+        "definicoes": {
+            "logsstaff": "1494017331939119275",
+            "cargostaff": "1493742132656214016",
+            "categoriaticket": "1494017430610251977"
+        },
+        "funcoes": [
+            {
+                "nome": "Suporte",
+                "preDescricao": "Preciso de suporte",
+                "descricao": "Precisa de suporte? Clique aqui e tenha o devido.",
+                "emoji": "<:sup:1494024231267209367>",
+                "status": true
+            },
+            {
+                "nome": "Comprar",
+                "preDescricao": "Desejo comprar",
+                "descricao": "Clique aqui para comprar algum produto",
+                "emoji": "<:credit_card_24dp_E3E3E3_FILL0_wg:1494027858425937930>",
+                "status": true
+            }
+        ],
+        "tipoenviarmsgtckt": true,
+        "mensagemId": "1494022153853472998",
+        "channelId": "1494017388994232500",
+        "statusabertura": true,
+        "tipomsg": false,
+        "aparencia": {
+            "content": "# Atendimento Ao Cliente\n\nOlá! Bem-vindo(a) ao sistema de tickets deste servidor.\n\n- Para abrir um ticket e receber atendimento personalizado, clique no botão abaixo. Após enviar seu motivo de contato, criaremos um canal de texto privado para assistência rápida e segura. Estamos aqui para ajudar!",
+            "banner": "https://cdn.discordapp.com/banners/1494008373014958152/62270b50c6250b74845ebb7d5c7188ac.webp?size=1024",
+            "titulo": "Atendimento ao cliente",
+            "descricao": "**🕑 | HORÁRIOS:**\n> **Segunda a Sexta**: das 12:00 até 22:00\n> **Sábado e Domingo**: 13:00 até 01:00 \n\n**🚨 | LEIA ANTES DE ABRIR**\n> - Leia os Termos para saber os seus direitos.\n> - **Não** fique cobrando atendimento, pois **seguimos uma fila**.\n> - Caso você nos desrespeite ou quebre as regras, você estará sujeito a **Castigo ou Blacklist**.",
+            "cor": "#1900ff",
+            "miniatura": "https://cdn.discordapp.com/avatars/1494008373014958152/8ce14bf5b6c54c2cf6c70bba6b57b0a1.webp?size=1024"
+        },
+        "botao": {
+            "emoji": "🟢",
+            "style": 2
+        },
+        "functions": {
+            "poker": true,
+            "renomear": true,
+            "adicionar_usuario": true,
+            "remover_usuario": true
+        }
+    },
+    "auto": {
+        "mp": "APP_USR-36839454329416-102609-6a861627ce27ce60e07d83aa82c79e96-2948420930",
+        "sistemaMp": false
+    },
+    "semi": {
+        "sistema": true,
+        "tipo": "Aleatória",
+        "chave": "850886cb-198f-465b-a309-b603e5fade01",
+        "roleAprove": "1493742132656214016"
+    }
+}

@@ -1,0 +1,164 @@
+[33mcommit dfcd9ed3501f28ad5ad0e6589553c45b96746df6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: u5wi <davimelonun@gmail.com>
+Date:   Thu Apr 16 21:18:46 2026 -0300
+
+    Bot ticket
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..25c8fdb[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32mnode_modules[m
+[32m+[m[32mpackage-lock.json[m
+\ No newline at end of file[m
+[1mdiff --git a/Ark Solutions - by apx.p12 b/Ark Solutions - by apx.p12[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3f77035[m
+Binary files /dev/null and b/Ark Solutions - by apx.p12 differ
+[1mdiff --git a/DataBaseJson/general.json b/DataBaseJson/general.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f780ae9[m
+[1m--- /dev/null[m
+[1m+++ b/DataBaseJson/general.json[m
+[36m@@ -0,0 +1,64 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m    "ticket": {[m
+[32m+[m[32m        "status": true,[m
+[32m+[m[32m        "statusgermine": true,[m
+[32m+[m[32m        "germine": {[m
+[32m+[m[32m            "prompt": "Você é um atendente virtual de um servidor do discord. \nSeu objetivo é resolver problemas e duvidas de clientes de forma rápida, simpática e profissional.",[m
+[32m+[m[32m            "apikey": "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"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "definicoes": {[m
+[32m+[m[32m            "logsstaff": "1494017331939119275",[m
+[32m+[m[32m            "cargostaff": "1493742132656214016",[m
+[32m+[m[32m            "categoriaticket": "1494017430610251977"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "funcoes": [[m
+[32m+[m[32m            {[m
+[32m+[m[32m                "nome": "Suporte",[m
+[32m+[m[32m                "preDescricao": "Preciso de suporte",[m
+[32m+[m[32m                "descricao": "Precisa de suporte? Clique aqui e tenha o devido.",[m
+[32m+[m[32m                "emoji": "<:sup:1494024231267209367>",[m
+[32m+[m[32m                "status": true[m
+[32m+[m[32m            },[m
+[32m+[m[32m            {[m
+[32m+[m[32m                "nome": "Comprar",[m
+[32m+[m[32m                "preDescricao": "Desejo comprar",[m
+[32m+[m[32m                "descricao": "Clique aqui para comprar algum produto",[m
+[32m+[m[32m                "emoji": "<:credit_card_24dp_E3E3E3_FILL0_wg:1494027858425937930>",[m
+[32m+[m[32m                "status": true[m
+[32m+[m[32m            }[m
+[32m+[m[32m        ],[m
+[32m+[m[32m        "tipoenviarmsgtckt": true,[m
+[32m+[m[32m        "mensagemId": "1494022153853472998",[m
+[32m+[m[32m        "channelId": "1494017388994232500",[m
+[32m+[m[32m        "statusabertura": true,[m
+[32m+[m[32m        "tipomsg": false,[m
+[32m+[m[32m        "aparencia": {[m
+[32m+[m[32m            "content": "# Atendimento Ao Cliente\n\nOlá! Bem-vindo(a) ao sistema de tickets deste servidor.\n\n- Para abrir um ticket e receber atendimento personalizado, clique no botão abaixo. Após enviar seu motivo de contato, criaremos um canal de texto privado para assistência rápida e segura. Estamos aqui para ajudar!",[m
+[32m+[m[32m            "banner": "https://cdn.discordapp.com/banners/1494008373014958152/62270b50c6250b74845ebb7d5c7188ac.webp?size=1024",[m
+[32m+[m[32m            "titulo": "Atendimento ao cliente",[m
+[32m+[m[32m            "descricao": "**🕑 | HORÁRIOS:**\n> **Segunda a Sexta**: das 12:00 até 22:00\n> **Sábado e Domingo**: 13:00 até 01:00 \n\n**🚨 | LEIA ANTES DE ABRIR**\n> - Leia os Termos para saber os seus direitos.\n> - **Não** fique cobrando atendimento, pois **seguimos uma fila**.\n> - Caso você nos desrespeite ou quebre as regras, você estará sujeito a **Castigo ou Blacklist**.",[m
+[32m+[m[32m            "cor": "#1900ff",[m
+[32m+[m[32m            "miniatura": "https://cdn.discordapp.com/avatars/1494008373014958152/8ce14bf5b6c54c2cf6c70bba6b57b0a1.webp?size=1024"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "botao": {[m
+[32m+[m[32m            "emoji": "🟢",[m
+[32m+[m[32m            "style": 2[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "functions": {[m
+[32m+[m[32m            "poker": true,[m
+[32m+[m[32m            "renomear": true,[m
+[32m+[m[32m            "adicionar_usuario": true,[m
+[32m+[m[32m            "remover_usuario": true[m
+[32m+[m[32m        }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "auto": {[m
+[32m+[m[32m        "mp": "APP_USR-36839454329416-102609-6a861627ce27ce60e07d83aa82c79e96-2948420930",[m
+[32m+[m[32m        "sistemaMp": false[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "semi": {[m
+[32m+[m[32m        "sistema": true,[m
+[32m+[m[32m        "tipo": "Aleatória",[m
+[32m+[m[32m        "chave": "850886cb-198f-465b-a309-b603e5fade01",[m
+[32m+[m[32m        "roleAprove": "1493742132656214016"[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/DataBaseJson/index.js b/DataBaseJson/index.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ecd4230[m
+[1m--- /dev/null[m
+[1m+++ b/DataBaseJson/index.js[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32mconst {[m
+[32m+[m[32m    JsonDatabase,[m
+[32m+[m[32m  } = require("wio.db");[m
+[32m+[m[41m  [m
+[32m+[m[32m  const general = new JsonDatabase({[m
+[32m+[m[32m    databasePath: "./DataBaseJson/general.json"[m
+[32m+[m[32m  });[m
+[32m+[m[41m  [m
+[32m+[m[32m  const tickets = new JsonDatabase({[m
+[32m+[m[32m    databasePath: "./DataBaseJson/ticket.json"[m
+[32m+[m[32m  });[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m[32m  module.exports = {[m
+[32m+[m[32m    general,[m
+[32m+[m[32m    tickets[m
+[32m+[m[32m  }[m
+\ No newline at end of file[m
+[1mdiff --git a/DataBaseJson/ticket.json b/DataBaseJson/ticket.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c7e0fa9[m
+[1m--- /dev/null[m
+[1m+++ b/DataBaseJson/ticket.json[m
+[36m@@ -0,0 +1,78 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m    "1443395801224052848": {[m
+[32m+[m[32m        "dono": "1001661514371055638",[m
+[32m+[m[32m        "nmfunc": "Iniciar Atendimento",[m
+[32m+[m[32m        "assumidostatus": false,[m
+[32m+[m[32m        "chat": [[m
+[32m+[m[32m            {[m
+[32m+[m[32m                "role": "user",[m
+[32m+[m[32m                "content": "Opa"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            {[m
+[32m+[m[32m                "role": "assistant",[m
+[32m+[m[32m                "content": "Olá! Como posso ajudar você hoje? Você precisa de ajuda com algo específico ou tem alguma dúvida? Estou aqui para te ajudar!"[m
+[32m+[m[32m            }[m
+[32m+[m[32m        ],[m
+[32m+[m[32m        "assumido": true[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "1443738853138497559": {[m
+[32m+[m[32m        "dono": "1237598056015335440",[m
+[32m+[m[32m        "nmfunc": "Iniciar Atendimento",[m
+[32m+[m[32m        "assumidostatus": false,[m
+[32m+[m[32m        "assumido": true[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "1443751483245068419": {[m
+[32m+[m[32m        "dono": "925089439535988797",[m
+[32m+[m[32m        "nmfunc": "Iniciar Atendimento",[m
+[32m+[m[32m        "assumidostatus": true,[m
+[32m+[m[32m        "chat": [[m
+[32m+[m[32m            {[m
+[32m+[m[32m                "role": "user",[m
+[32m+[m[32m                "content": "<@1392160577442414603>"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            {[m
+[32m+[m[32m                "role": "assistant",[m
+[32m+[m[32m                "content": "Olá! Como posso ajudá-lo? Você tem alguma dúvida ou precisou de ajuda com algo? Estou aqui para ajudar!"[m
+[32m+[m[32m            }[m
+[32m+[m[32m        ],[m
+[32m+[m[32m        "assumido": "night_forn13"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "1494023450606571560": {[m
+[32m+[m[32m        "dono": "1386162256588443709",[m
+[32m+[m[32m        "nmfunc": "Iniciar Atendimento",[m
+[32m+[m[32m        "assumidostatus": false,[m
+[32m+[m[32m        "chat": 
